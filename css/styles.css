@@ -1,18 +1,14 @@
 body{
     font-family: "Open Sans", sans-serif;
+    background-color: beige;
 }
 
 h1,h2,h3{
     font-family:"Lobster", cursive;
 }
 
-h2{
-    color: #3046C5;
-}
 
-header h2{
-    color: #CEC8FF;
-}
+
 
 .site-footer{
     background-image: linear-gradient(#CEC8FF,white);
@@ -22,8 +18,7 @@ header h2{
 .jumbotron{
     margin:0;
     padding:30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
+    background-color: beige;
 }
 
 .row-content{
@@ -33,8 +28,15 @@ header h2{
 }
 
 .navbar{
-    background-color: #901CAD;
+    background-color: lightcyan;
+    border: 1px solid #77aaff;
+    box-shadow: -1px 1px #77aaff,
+                -2px 2px #77aaff,
+                -3px 3px #77aaff,
+                -4px 4px #77aaff,
+                -5px 5px #77aaff;
 }
+
 
 .tab-content{
     border:1px solid #DDD;
@@ -46,14 +48,12 @@ header h2{
     background-color: rgba(0,0,0,0.5);
 }
 
-.carousel{
-    border: solid #5637DD;
+
+#coffeeCup{
+    font-size: 32px;
 }
 
-#carouselButton{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index:100;
-    
+#coffeeCupLogo{
+    border:0;
+    background-color: transparent;
 }
