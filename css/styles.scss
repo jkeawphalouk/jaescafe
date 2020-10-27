@@ -14,7 +14,7 @@ $header-font: "Lobster", cursive;
 
 body{
     font-family: $body-font;
-    background: beige;
+    background: #D2B48C;
 }
 
 h1,h2,h3{
@@ -32,15 +32,15 @@ header {
 }
 
 .site-footer{
-    background-image: linear-gradient($color-pale,white);
+    background:  #D2B48C;
     padding: 20px 0;
 }
 
 .jumbotron{
     margin:0;
     padding:30px;
-    background-color: beige;
-}
+    background-color: #D2B48C;
+} 
 
 .row-content{
     padding: 50px 0;
@@ -51,7 +51,7 @@ header {
 .navbar{
     background-color: beige;
     border: 1px solid;
-    box-shadow: 5px 10px tan;
+
 }
 
 .tab-content{
@@ -65,7 +65,7 @@ header {
 }
 
 .carousel{
-    border: solid $color-secondary;
+    border: solid beige;
 }
 
 #carouselButton{
@@ -102,4 +102,17 @@ header {
 
 a{
     color:inherit;
+}
+
+.carouselItem{
+    img{
+        width:100%;
+    }
+}
+.nav-tabs{
+    background-color: beige;
+}
+
+.tab-content{
+    background-color: beige;
 }
