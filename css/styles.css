@@ -1,5 +1,6 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  background: beige; }
 
 h1, h2, h3 {
   font-family: "Lobster", cursive; }
@@ -17,8 +18,7 @@ header h2 {
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
-  color: white; }
+  background-color: beige; }
 
 .row-content {
   padding: 50px 0;
@@ -26,7 +26,9 @@ header h2 {
   min-height: 200px; }
 
 .navbar {
-  background-color: #901CAD; }
+  background-color: beige;
+  border: 1px solid;
+  box-shadow: 5px 10px tan; }
 
 .tab-content {
   border: 1px solid #DDD;
@@ -52,3 +54,14 @@ header h2 {
 #loginModal .modal-header {
   background-color: #901CAD;
   color: white; }
+
+#cafeName {
+  text-align: center;
+  font-size: 100px;
+  color: black; }
+
+#cart {
+  color: black; }
+
+a {
+  color: inherit; }

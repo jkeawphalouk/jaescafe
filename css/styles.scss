@@ -14,6 +14,7 @@ $header-font: "Lobster", cursive;
 
 body{
     font-family: $body-font;
+    background: beige;
 }
 
 h1,h2,h3{
@@ -38,8 +39,7 @@ header {
 .jumbotron{
     margin:0;
     padding:30px;
-    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
-    color: white;
+    background-color: beige;
 }
 
 .row-content{
@@ -49,7 +49,9 @@ header {
 }
 
 .navbar{
-    background-color: $color-mid;
+    background-color: beige;
+    border: 1px solid;
+    box-shadow: 5px 10px tan;
 }
 
 .tab-content{
@@ -86,4 +88,18 @@ header {
         background-color:$color-mid;
         color: white;
     }
+}
+
+#cafeName{
+    text-align: center;
+    font-size: 100px;
+    color: black;
+}
+
+#cart{
+    color:black;
+}
+
+a{
+    color:inherit;
 }
