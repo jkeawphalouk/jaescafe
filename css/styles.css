@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
-  background: #D2B48C; }
+  background: #D2B48C;
+  background-image: url("../img/beans.png"); }
 
 h1, h2, h3 {
   font-family: "Lobster", cursive; }
@@ -73,3 +74,11 @@ a {
 
 .tab-content {
   background-color: beige; }
+
+#homePhoto img {
+  width: 100%; }
+
+.carousel-item img {
+  width: auto;
+  height: 400px;
+  max-height: auto; }
